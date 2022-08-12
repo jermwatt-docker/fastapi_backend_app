@@ -31,6 +31,8 @@ RUN pip3 install pymongo
 RUN pip3 install pandas 
 RUN pip3 install numpy 
 RUN pip3 install elasticsearch
+RUN pip3 install apscheduler
+
 
 # add non-root user
 # RUN groupadd -g 1001 app_group

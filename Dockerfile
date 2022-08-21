@@ -33,6 +33,7 @@ RUN pip3 install numpy
 RUN pip3 install elasticsearch
 RUN pip3 install apscheduler
 RUN pip3 install beautifulsoup4
+RUN pip3 install httpx
 
 # add non-root user
 # RUN groupadd -g 1001 app_group
